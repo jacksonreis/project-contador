@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@700&display=swap');
+body {
+    background-color: #f8f8f8;
+    font-family: 'Sarabun', sans-serif;
+
+}
+
+header {
+     text-align: center;
+}
+
+section{
+     background-color: white;
+     padding: 40px;
+     height: center;
+     line-height: center;  /*altura dentro de um quadrado*/
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     box-shadow: 0px 2px 9px 1px #00000013;
+}
+
+#n{
+     font-family: 'Sarabun', sans-serif;
+     color: #000000;
+     font-size: 80px;
+     border-radius: 5px;
+}
+
+#reset {
+     color: #ffffff;
+     background-color: #0e0e0e;
+     border-radius: 5px;
+     border: 2px solid #0e0e0e;
+     cursor: pointer;
+     padding: 7px;
+     font-size: 20px;
+     outline: none;
+}
+#reset:hover {
+     color: #ffffff;
+     background-color: #000000;
+     border: 2px solid #000000;
+     transition: 0.2s;
+}
+
+#soma {
+     color: #ffffff;
+     background-color: green;
+     border: 2px solid green;
+     border-radius: 5px;
+     font-size: 20px;
+     padding: 7px;
+     width: 40px;
+     cursor: pointer;
+}
+
+#soma:hover {
+     background-color: rgb(0, 114, 0);
+     border: 2px solid rgb(0, 114, 0);
+     transition: 0.1s;
+}
+
+#subtrai {
+     color: #ffffff;
+     background-color: red;
+     border: 2px solid red;
+     border-radius: 5px;
+     font-size: 20px;
+     padding: 7px;
+     width: 40px;
+     cursor: pointer;
+}
+
+#subtrai:hover {
+     background-color: rgb(240, 0, 0);
+     border: 2px solid rgb(240, 0, 0);
+     transition: 0.1s;
+}
+
+footer {
+     text-align: center;
+}
